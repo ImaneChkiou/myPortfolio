@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Responsive Portfolio Website HTML CSS| CodingNepal</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <!-- <div class="logo"><a href="#">Portfolio.</a></div> -->
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://web.facebook.com/ch.amal.9678"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/message/4KTKC24KQJ54K1"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:imanchkiou111@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
+        <a href="https://www.instagram.com/imanechkiou/profilecard/?igsh=eHoyaXVwY2o0MXU0"><i
+            class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello Everyone,</div>
+        <div class="text-two">I'm Imane Chkiou</div>
+        <div class="text-three">Graphic Designer</div>
+        <div class="text-four">From Morocco</div>
+      </div>
+      <div class="button">
+        <a href="#contact">
+          <button>Ready To Elevate Your Projects?</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/Imane.jpg" alt="" />
+        </div>
+        <div class="right">
+          <div class="topic">Designing Is My Passion</div>
+          <p>
+            I had obtained my Bachelor Degree in Computer Sciences in Marrakech, then I had created my first web
+            application to RADEEMA a company of water and light distribution, after one year of doing things beyound my
+            passion and what belongs to me, to my skills and creativity. I had decided to learn graphic design by myself
+            using Youtube Channel and Online Courses, through 3 months of learning I started working with a photograph
+            creating flyer, editing photos for him. And go on, I kept practicing, learning from professional designer,
+            also I get involved in ALX courses to have all what I need to use AI to make my work more rapid, and this is
+            not the End.
+          </p>
+          <div class="button">
+            <a href="#services">
+              <button>What do I offer to you <i class="fas fa-arrow-down"></i></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">All these skills are for you and more!</div>
+          <p>As I had a Bachelor Degree in Computer Sciences I had skills in programmimg websites (like this one that I
+            created it using an earlier template but I made a lot of adjustements on it), also coding web
+            application, using Html Css JavScript JEE Angular SpringBoot but unfortuantly I did not get expertise in
+            this domain to offer it as services for you but I am aiming to focus either on that in 2025. But here I will
+            concentrate on Graphic Design, otherwise, I have additional skills in Video Editing using Canva capcut...and
+            Here we GO!</p>
+          <div class="experience">
+            <div class="num">5</div>
+            <div class="exp">
+              Years Of <br />
+              Experience
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">Adobe Photoshop</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Canva</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Adobe Illustrator</div>
+            <div class="per">50%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Capcut</div>
+            <div class="per">40%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Services Section Start -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Services</span></div>
+      <div class="boxes">
+        <!-- BOX1 -->
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-roller"></i>
+          </div>
+          <div class="topic">Arabic graphic Design</div>
+          <p>It's usualy not very common to find a lot of designer with arabic graphic designs esperience, so I am here
+            to help you with that</p>
+          <div class="button"><button id="openGallery1" class="popup-btn">Take a look</button></div>
+        </div>
+        <!-- Pop-Up1 Container -->
+        <div id="galleryPopup1" class="popup">
+          <div class="popup-content">
+            <span id="closeGallery1" class="close-btn">&times;</span>
+            <h2>Arabic Flyers</h2>
+            <div class="gallery">
+              <!-- 9 Images -->
+              <img src="Images/graphic1.jpg" alt="Graphic 1">
+              <img src="Images/graphic2.jpg" alt="Graphic 2">
+              <img src="Images/graphic3.jpg" alt="Graphic 3">
+              <img src="Images/graphic4.jpg" alt="Graphic 4">
+              <img src="Images/graphic5.jpg" alt="Graphic 5">
+              <img src="Images/graphic6.jpg" alt="Graphic 6">
+              <img src="Images/graphic7.jpg" alt="Graphic 7">
+              <img src="Images/graphic8.jpg" alt="Graphic 8">
+              <img src="Images/graphic9.jpg" alt="Graphic 9">
+            </div>
+          </div>
+        </div>
+        <!-- BOX2 -->
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <div class="topic">Other Flyer Designs</div>
+          <p>Using Adobe Photoshop and Canva I try to showcase my creativity through flyer design with diffrent fonts
+            and diffrent colors depending on the design theme </p>
+          <div class="button"><button id="openGallery2" class="popup-btn">Take a look</button></div>
+        </div>
+        <!-- Pop-Up2 Container -->
+        <div id="galleryPopup2" class="popup">
+          <div class="popup-content">
+            <span id="closeGallery2" class="close-btn">&times;</span>
+            <h2>Creative Flyers In English</h2>
+            <div class="gallery">
+              <!-- 9 Images -->
+              <img src="Images/graphicfr1.jpg" alt="Graphicfr 1">
+              <img src="Images/graphicfr2.jpg" alt="Graphicfr 2">
+              <img src="Images/graphicfr3.jpg" alt="Graphicfr 3">
+              <img src="Images/graphicfr4.jpg" alt="Graphicfr 4">
+              <img src="Images/graphicfr5.jpg" alt="Graphicfr 5">
+              <img src="Images/graphicfr6.jpg" alt="Graphicfr 6">
+              <img src="Images/graphicfr7.jpg" alt="Graphicfr 7">
+              <img src="Images/graphicfr8.jpg" alt="Graphicfr 8">
+              <img src="Images/graphicfr9.jpg" alt="Graphicfr 9">
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- BOX3 -->
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic">Card Designs</div>
+          <p>One of the most powerful things that can improve your business is the Business or Visit Card, so here what
+            I lately created</p>
+          <div class="button"><button id="openGallery3" class="popup-btn">Take a look</button></div>
+        </div>
+        <!-- Pop-Up3 Container -->
+        <div id="galleryPopup3" class="popup">
+          <div class="popup-content">
+            <span id="closeGallery3" class="close-btn">&times;</span>
+            <h2>Business / Visit Cards
+            </h2>
+            <div class="gallery">
+              <!-- 9 Images -->
+              <img src="Images/card1.png">
+              <img src="Images/card2.jpg">
+              <img src="Images/card3.jpg">
+              <img src="Images/card4.jpg">
+              <img src="Images/card5.jpg">
+            </div>
+          </div>
+        </div>
+
+        <!-- BOX4 -->
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-camera-retro"></i>
+          </div>
+          <div class="topic">Content Creation-Social Media Design</div>
+          <p>I had the opportunity to work with the most famous Coach of Personal Devlopment and Energy, so I created
+            her Instagram Page content for at least 6 months, and it was very great experienc with amazing outcome, Now
+            she get 1K followers in less of a month</p>
+          <div class="button"><a href="https://www.instagram.com/meryem_amzil1/" target="_blank"><button>Take a
+                look</button></a></div>
+        </div>
+
+        <!-- BOX5 -->
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="topic">logos & Branding</div>
+          <p>I honestly don't have a big experience in Logo creation and Branding but I tried my best and I am open to
+            learn more in this domain with you, Why Not? </p>
+          <div class="button"><button id="openGallery4" class="popup-btn">Take a look</button></div>
+        </div>
+        <!-- Pop-Up4 Container -->
+        <div id="galleryPopup4" class="popup">
+          <div class="popup-content">
+            <span id="closeGallery4" class="close-btn">&times;</span>
+            <h2>Logos & Brandings
+            </h2>
+            <div class="gallery">
+              <!-- 9 Images -->
+              <img src="Images/logo1.jpg">
+              <img src="Images/logo2.jpg">
+              <img src="Images/logo3.jpg">
+              <img src="Images/logo4.jpg">
+            </div>
+          </div>
+        </div>
+
+        <!-- BOX6 -->
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-asterisk"></i>
+          </div>
+          <div class="topic">Arabic graphic Design</div>
+          <p>It's usualy not very common to find a lot of designer with arabic graphic designs esperience, so I am here
+            to help you with that</p>
+          <div class="button"><button id="openGallery5" class="popup-btn">Take a look</button></div>
+        </div>
+        <!-- Pop-Up6 Container -->
+        <div id="galleryPopup5" class="popup">
+          <div class="popup-content">
+            <span id="closeGallery5" class="close-btn">&times;</span>
+            <h2>T-shirt Designs</h2>
+            <div class="gallery">
+              <!-- 9 Images -->
+              <img src="Images/t-shirt1.png" alt="Graphic 1">
+              <img src="Images/t-shirt2.png" alt="Graphic 2">
+              <img src="Images/t-shirt3.png" alt="Graphic 3">
+              <img src="Images/t-shirt4.png" alt="Graphic 4">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic">I am Here For You</div>
+        <p>As I helped a lot of people In Marrakech and Rabat Morocco and it was very helpful for them and me, So if you
+          want to </p>
+        <div class="button">
+          <a href="https://wa.me/212697867091?text=Hello,%20I%20am%20interested%20in%20your%20services!"
+            target="_blank">
+            <button>
+              Contact Me Now
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">IMANE CHKIOU</a> | &#169; 2024</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
